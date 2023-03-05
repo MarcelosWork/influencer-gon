@@ -422,7 +422,7 @@ body{
     transform: scale(1.1);
 }
 #breaker{
-    height: 100vh;
+    height: 100%;
     width: 200%;
     background-color: #c70039;
     opacity: 1;
@@ -1432,7 +1432,7 @@ For devices with smaller width like mobile phone
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100%;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
@@ -1884,7 +1884,7 @@ for tabs and large phones
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100%;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
@@ -2608,3 +2608,21 @@ width: 100%;
       max-width: 100%;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .column-image-port {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-image-port {
+    -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
