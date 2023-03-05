@@ -10,6 +10,7 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 ::-webkit-scrollbar{
     width: 4px;
     color:#c70039;
@@ -122,6 +123,9 @@ body{
 }
 .menubar .first-span{
     width:35px;
+}
+.timesletter{
+    font-family: 'Times New Roman', Times, serif;
 }
 .menubar .first-span::before{
     content: "";
@@ -516,6 +520,7 @@ body{
     opacity: .8;
     font-size: 13px;
     font-weight: 100;
+    align-items: center;
 }
 .about-main{
     display: flex;
@@ -1024,7 +1029,7 @@ padding-bottom: 40px;
     font-size: 18px;
     text-align: center;
     font-weight: 400;
-    font-family: poppins;
+    font-family: 'Times New Roman', Times, serif;
     padding: 3px;
     transition: all .4s ease;
     width: 25%;
@@ -1040,7 +1045,7 @@ padding-bottom: 40px;
   width: 100%;
   text-align: center;
   vertical-align: center;
-  font-family: poppins;
+  font-family: 'Times New Roman', Times, serif;
   color: whitesmoke;
   background-color: #050505;
   transition: all .5s ease;
@@ -1111,7 +1116,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/gon14.JPG);
+    background: url(../images/gon16.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -1642,7 +1647,7 @@ For devices with smaller width like mobile phone
                 font-size: 18px;
                 text-align: center;
                 font-weight: 400;
-                font-family: poppins;
+                font-family: 'Times New Roman', Times, serif;
                 padding: 3px;
                 width: 35%;
                 height: auto;
@@ -1657,7 +1662,7 @@ For devices with smaller width like mobile phone
               width: 100%;
               text-align: center;
               vertical-align: center;
-              font-family: poppins;
+              font-family: 'Times New Roman', Times, serif;
               color: whitesmoke;
               background-color: #000000;
               transition: all .5s ease;
@@ -2112,7 +2117,7 @@ for tabs and large phones
                 font-size: 18px;
                 text-align: center;
                 font-weight: 400;
-                font-family: poppins;
+                font-family: 'Times New Roman', Times, serif;
                 padding: 3px;
                 width: 35%;
                 height: auto;
@@ -2127,7 +2132,7 @@ for tabs and large phones
               width: 100%;
               text-align: center;
               vertical-align: center;
-              font-family: poppins;
+              font-family: 'Times New Roman', Times, serif;
               color: whitesmoke;
               background-color: #050505;
               padding: 10px;
@@ -2420,7 +2425,7 @@ for tabs and large phones
         font-size: 18px;
         text-align: center;
         font-weight: 400;
-        font-family: poppins;
+        font-family: 'Times New Roman', Times, serif;
         padding: 3px;
         width: 25%;
         height: auto;
@@ -2435,7 +2440,7 @@ for tabs and large phones
       width: 100%;
       text-align: center;
       vertical-align: center;
-      font-family: poppins;
+      font-family: 'Times New Roman', Times, serif;
       color: whitesmoke;
       background-color: #050505;
       transition: all .5s ease;
